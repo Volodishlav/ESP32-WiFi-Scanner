@@ -39,14 +39,14 @@ A lightweight ESP32 project that scans nearby WiFi networks and displays their i
 
 ### 🚀 How It Works
 
-- 1. ESP32 initializes WiFi in station mode  
-- 2. Scans nearby networks (including hidden)  
-- 3. Displays:
+- ESP32 initializes WiFi in station mode  
+- Scans nearby networks (including hidden)  
+- Displays:
    - SSID  
    - RSSI (signal strength)  
    - Encryption type  
-- 5. Cycles through networks  
-- 6. Re-scans periodically  
+- Cycles through networks  
+- Re-scans periodically  
 
 ---
 
