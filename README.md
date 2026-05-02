@@ -1,21 +1,21 @@
-# 📡 ESP32 WiFi Scanner
+# ESP32 WiFi Scanner
 
 A lightweight ESP32 project that scans nearby WiFi networks and displays their information in real-time on an I2C LCD screen.
 
 ---
 
-### 🧠 Features
+### Features
 
-- 📶 Scan nearby WiFi networks (hidden networks included)
-- 📟 Display SSID, signal strength (RSSI), and encryption type  
-- 🔄 Automatic refresh every 15 seconds  
-- 📄 Paginated view for multiple networks  
-- 🖥️ Serial output for debugging and logs  
-- ⚡ Lightweight and efficient  
+- Scan nearby WiFi networks (hidden networks included)
+- Display SSID, signal strength (RSSI), and encryption type  
+- Automatic refresh every 15 seconds  
+- Paginated view for multiple networks  
+- Serial output for debugging and logs  
+- Lightweight and efficient  
 
 ---
 
-### ⚙️ Dependencies and hardware required
+### Dependencies and hardware required
 
 - WiFi.h
 - Wire.h
@@ -26,7 +26,7 @@ A lightweight ESP32 project that scans nearby WiFi networks and displays their i
 
 ---
 
-### 🔌 Wiring (I2C)
+### Wiring (I2C)
 
 | LCD | ESP32 |
 |-----|------|
@@ -37,7 +37,7 @@ A lightweight ESP32 project that scans nearby WiFi networks and displays their i
 
 ---
 
-### 🚀 How It Works
+### How It Works
 
 - ESP32 initializes WiFi in station mode  
 - Scans nearby networks (including hidden)  
@@ -50,7 +50,7 @@ A lightweight ESP32 project that scans nearby WiFi networks and displays their i
 
 ---
 
-### ⚙️ Configuration
+### Configuration
 
 - Adjust the timing behavior of the scanner by modifying the following values in the code:
 
