@@ -15,11 +15,13 @@ A lightweight ESP32 project that scans nearby WiFi networks and displays their i
 
 ---
 
-### Dependencies and hardware required
+### Libraries
 
 - WiFi.h
 - Wire.h
 - LiquidCrystal_I2C.h
+
+### Hardware
 
 - ESP32  
 - I2C LCD (16x2)
